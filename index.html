@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <link rel="icon" type="image/png" href="icon-192.png">
+  <meta charset="UTF-8" />
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Prompt Builder">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"/>
+  <meta name="theme-color" content="#000000">
+
+  <title>Prompt Builder</title>
+
+  <link rel="stylesheet" href="theme.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="safe-overlay-top"></div>
+  <div class="safe-overlay-bottom"></div>
+
+  <div class="app" id="app"></div>
+
+  <button class="scroll-down-btn" id="scrollDownBtn" type="button">↓</button>
+
+  <!-- load order matters -->
+  <script src="dictionary.js"></script>
+  <script src="enums.js"></script>
+  <script src="structure.js"></script>
+  <script src="config.js"></script>
+  <script src="icons.js"></script>
+  <script src="ui.js"></script>
+  <script src="prompt.js"></script>
+  <script src="highlight.js"></script>
+  <script src="scroll.js"></script>
+  <script src="presets.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

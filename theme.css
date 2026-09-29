@@ -1,0 +1,97 @@
+:root {
+  color-scheme: dark;
+
+  --bg: #1b1b1b;
+  --bg-app-top: #232323;
+  --text: #fc6e20;
+  --muted: #a7a7a7;
+
+  --bg-gradient-1: rgba(219, 58, 22, 0.18);
+  --bg-gradient-2: rgba(214, 119, 30, 0.08);
+  --bg-deep-1: #232323;
+  --bg-deep-2: #1b1b1b;
+  --bg-deep-3: #101010;
+
+  --safe-top-strong: rgba(0,0,0,0.7);
+  --safe-top-soft: rgba(0, 0, 0, 0.30);
+  --safe-top-clear: rgba(0, 0, 0, 0);
+
+  --bg-prompt: #232323;
+  --bg-prompt-border: #3a3a3a;
+
+  --panel: rgba(255, 231, 208, 0.04);
+  --panel-border: rgba(255, 231, 208, 0.10);
+
+  --h2: #ffffff;
+  --label-text: #bdbdbd;
+
+  --input-bg: rgba(0, 0, 0, 0.25);
+  --input-text: #ffffff;
+  --input-border: rgba(255, 231, 208, 0.14);
+  --input-placeholder: #7d7d7d8a;
+
+  --select-arrow: #cfcfcf;
+
+  --focus: #fc6e20;
+  --focus-shadow: 0 0 0 3px rgba(252,110,32,0.25);
+
+  --active-border: #fc6e20;
+  --active-bg: #2a2a2a;
+  --active-glow: rgba(252,110,32,0.22);
+  --active-glow-strong: 0 0 12px 2px rgba(252,110,32,0.28);
+
+  --btn: #ffe7d0;
+  --btn-text: #1b1b1b;
+  --btn-primary: #fc6e20;
+  --btn-secondary: #323232;
+  --btn-secondary-border: #4a4a4a;
+  --btn-secondary-filter: brightness(0.95);
+  --btn-ghost-border: #5a5a5a;
+  --btn-ghost-text: #ffffff;
+  --btn-danger-bg: rgba(252,110,32,0.14);
+  --btn-danger-border: #fc6e20;
+  --btn-danger-text: #fc6e20;
+  --btn-active-filter: brightness(0.88);
+
+  --reset-bg: #323232;
+  --reset-text: #e0e0e0;
+  --reset-active-filter: brightness(0.94);
+
+  --scroll-bg: #232323;
+  --scroll-text: #ffffff;
+  --scroll-border: #3a3a3a;
+  --shadow-soft: 0 8px 20px rgba(0, 0, 0, 0.25);
+  --floating-bg: rgba(255, 231, 208, 0.05);
+  --floating-blur: blur(4px) saturate(220%);
+
+  --r-xs: 12px;
+  --r-sm: 16px;
+  --r-md: 27px;
+  --r-lg: 20px;
+  --r-pill: 999px;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+
+  --border-thin: 1px;
+  --border-strong: 2px;
+
+  --font: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --font-size-label: 12px;
+  --font-size-h1-mobile: 30px;
+  --font-size-h1-desktop: 27px;
+  --font-size-h2: 14px;
+  --font-size-h2-preset: 12px;
+  --font-size-input: 14px;
+  --font-size-toolbar-note: 10px;
+  --font-size-reset: 10px;
+  --font-size-prompt: 14px;
+  --font-size-scroll: 24px;
+  --font-size-preset-btn: 12px;
+
+  --line-height-prompt: 1.5;
+}
