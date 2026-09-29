@@ -26,7 +26,7 @@ window.createUI = function createUI(config) {
   header.className = "app-header";
 
   const title = document.createElement("h1");
-  title.innerHTML = '🔸Prompt Builder';
+  title.innerHTML = 'Prompt Builder';
 
   header.appendChild(title);
   app.appendChild(header);

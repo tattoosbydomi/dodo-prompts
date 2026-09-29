@@ -1,7 +1,7 @@
 // sw.js — offline cache for the app shell.
 // Network-first, so online users always get fresh files.
 // Bump CACHE_VERSION when you add/rename files in ASSETS.
-const CACHE_VERSION = "v2";
+const CACHE_VERSION = "v3";
 const CACHE_NAME = `prompt-builder-${CACHE_VERSION}`;
 
 const ASSETS = [
@@ -22,7 +22,13 @@ const ASSETS = [
   "./presets.js",
   "./app.js",
   "./icon-192.png",
-  "./icon-512.png"
+  "./icon-512.png",
+  "./fonts/fraunces-variable.woff2",
+  "./fonts/fraunces-latin-ext.woff2",
+  "./fonts/newsreader-variable.woff2",
+  "./fonts/newsreader-latin-ext.woff2",
+  "./fonts/newsreader-italic-variable.woff2",
+  "./fonts/newsreader-italic-latin-ext.woff2"
 ];
 
 self.addEventListener("install", (event) => {

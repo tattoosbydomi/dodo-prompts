@@ -5,7 +5,7 @@ const TEXT = {
   invalid_preset: "Invalid preset file.",
   import_failed: "Import failed. File must be JSON from Export.",
   copy_failed: "Copy failed, copy manually.",
-  copied: "✅ Copied!",
+  copied: "✓ Copied",
   copy_prompt: "Copy Prompt",
 };
 
